@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ur_simulation_gz</name>
+  <version>0.0.1</version>
+  <description>UR10e + Robotiq 2F gripper Gazebo simulation package</description>
+
+  <maintainer email="anushkaintern2025@gmail.com">Anushka</maintainer>
+  <license>MIT</license>
+
+  <!-- Python build tool -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Common runtime dependencies -->
+  <depend>rclpy</depend>
+  <depend>gazebo_ros</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>xacro</depend>
+  <depend>ros2_control</depend>
+  <depend>ros2_controllers</depend>
+  <depend>ur_description</depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+

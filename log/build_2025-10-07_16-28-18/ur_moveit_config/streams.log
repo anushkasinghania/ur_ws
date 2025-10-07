@@ -1,0 +1,73 @@
+[0.010s] Invoking command in '/home/user/ur_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/Universal_Robots_ROS2_GZ_Simulation:/opt/ros/humble /usr/bin/cmake /home/user/ur_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ur_ws/install/ur_moveit_config
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.123s] -- Detecting C compiler ABI info
+[0.191s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.269s] -- Detecting CXX compiler ABI info - done
+[0.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.275s] -- Detecting CXX compile features
+[0.275s] -- Detecting CXX compile features - done
+[0.276s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.385s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.433s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.633s] -- Configuring done
+[0.634s] -- Generating done
+[0.636s] -- Build files have been written to: /home/user/ur_ws/build/ur_moveit_config
+[0.642s] Invoked command in '/home/user/ur_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/Universal_Robots_ROS2_GZ_Simulation:/opt/ros/humble /usr/bin/cmake /home/user/ur_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ur_ws/install/ur_moveit_config
+[0.642s] Invoking command in '/home/user/ur_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/Universal_Robots_ROS2_GZ_Simulation:/opt/ros/humble /usr/bin/cmake --build /home/user/ur_ws/build/ur_moveit_config -- -j32 -l32
+[0.753s] Built target ament_cmake_python_symlink_ur_moveit_config
+[1.036s] running egg_info
+[1.036s] creating ur_moveit_config.egg-info
+[1.037s] writing ur_moveit_config.egg-info/PKG-INFO
+[1.037s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[1.037s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[1.037s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.038s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.038s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.061s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[1.068s] Invoked command in '/home/user/ur_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/Universal_Robots_ROS2_GZ_Simulation:/opt/ros/humble /usr/bin/cmake --build /home/user/ur_ws/build/ur_moveit_config -- -j32 -l32
+[1.070s] Invoking command in '/home/user/ur_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/Universal_Robots_ROS2_GZ_Simulation:/opt/ros/humble /usr/bin/cmake --install /home/user/ur_ws/build/ur_moveit_config
+[1.078s] -- Install configuration: ""
+[1.079s] -- Execute custom install script
+[1.079s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[1.090s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/config/joint_limits.yaml
+[1.099s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[1.109s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[1.116s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[1.122s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[1.129s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[1.135s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[1.142s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[1.148s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[1.155s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[1.162s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.9.0-py3.10.egg-info/PKG-INFO
+[1.168s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.9.0-py3.10.egg-info/SOURCES.txt
+[1.175s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.9.0-py3.10.egg-info/dependency_links.txt
+[1.181s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.9.0-py3.10.egg-info/top_level.txt
+[1.188s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[1.194s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[1.200s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[1.206s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[1.212s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[1.218s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[1.225s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[1.231s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[1.237s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[1.243s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[1.248s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[1.256s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[1.261s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[1.270s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[1.275s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[1.281s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[1.286s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[1.294s] -- Symlinking: /home/user/ur_ws/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[1.323s] Listing '/home/user/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[1.324s] Compiling '/home/user/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py'...
+[1.324s] Compiling '/home/user/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py'...
+[1.350s] Compiling '/home/user/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py'...
+[1.362s] Invoked command in '/home/user/ur_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/Universal_Robots_ROS2_GZ_Simulation:/opt/ros/humble /usr/bin/cmake --install /home/user/ur_ws/build/ur_moveit_config

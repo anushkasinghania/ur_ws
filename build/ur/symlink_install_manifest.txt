@@ -1,0 +1,15 @@
+/home/user/ur_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+/home/user/ur_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+/home/user/ur_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+/home/user/ur_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+/home/user/ur_ws/install/ur/share/ur/environment/path.sh
+/home/user/ur_ws/install/ur/share/ur/environment/path.dsv
+/home/user/ur_ws/install/ur/share/ur/local_setup.bash
+/home/user/ur_ws/install/ur/share/ur/local_setup.sh
+/home/user/ur_ws/install/ur/share/ur/local_setup.zsh
+/home/user/ur_ws/install/ur/share/ur/local_setup.dsv
+/home/user/ur_ws/install/ur/share/ur/package.dsv
+/home/user/ur_ws/install/ur/share/ament_index/resource_index/packages/ur
+/home/user/ur_ws/install/ur/share/ur/cmake/urConfig.cmake
+/home/user/ur_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+/home/user/ur_ws/install/ur/share/ur/package.xml
