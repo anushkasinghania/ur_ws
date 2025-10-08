@@ -1,1 +1,0 @@
-/home/user/ur_ws/build/Universal_Robots_ROS2_GZ_Simulation/launch/ur10e_gripper_gazebo.launch.py

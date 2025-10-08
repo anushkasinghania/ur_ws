@@ -1,1 +1,0 @@
-/home/user/ur_ws/src/Universal_Robots_ROS2_GZ_Simulation/setup.py

@@ -1,1 +1,0 @@
-/home/user/ur_ws/build/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp

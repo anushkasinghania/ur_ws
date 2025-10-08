@@ -1,1 +1,0 @@
-/home/user/ur_ws/src/ur_simulation_gz/setup.py
