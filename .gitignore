@@ -1,7 +1,18 @@
-# Ignore build and log folders
+# ROS2 colcon build artifacts
 build/
 install/
 log/
 .colcon/
-*.pyc
+
+# Python cache
 __pycache__/
+*.pyc
+
+# VSCode and IDE configs
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.bak
+
