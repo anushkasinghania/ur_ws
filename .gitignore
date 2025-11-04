@@ -1,0 +1,7 @@
+# Ignore build and log folders
+build/
+install/
+log/
+.colcon/
+*.pyc
+__pycache__/
