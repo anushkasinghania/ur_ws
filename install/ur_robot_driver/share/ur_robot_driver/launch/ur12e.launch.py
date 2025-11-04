@@ -1,0 +1,1 @@
+/home/user/ur_ws/src/universal_robots_ros2_driver/ur_robot_driver/launch/ur12e.launch.py

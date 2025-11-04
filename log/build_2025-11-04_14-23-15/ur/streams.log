@@ -1,0 +1,21 @@
+[0.026s] Invoking command in '/home/user/ur_ws/build/ur': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/universal_robots_ros2_gz_simulation:/opt/ros/humble /usr/bin/cmake --build /home/user/ur_ws/build/ur -- -j32 -l32
+[0.070s] Invoked command in '/home/user/ur_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/universal_robots_ros2_gz_simulation:/opt/ros/humble /usr/bin/cmake --build /home/user/ur_ws/build/ur -- -j32 -l32
+[0.071s] Invoking command in '/home/user/ur_ws/build/ur': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/universal_robots_ros2_gz_simulation:/opt/ros/humble /usr/bin/cmake --install /home/user/ur_ws/build/ur
+[0.079s] -- Install configuration: ""
+[0.080s] -- Execute custom install script
+[0.080s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+[0.080s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+[0.080s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+[0.080s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+[0.080s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ur/environment/path.sh
+[0.080s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ur/environment/path.dsv
+[0.081s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ur/local_setup.bash
+[0.081s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ur/local_setup.sh
+[0.081s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ur/local_setup.zsh
+[0.081s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ur/local_setup.dsv
+[0.081s] -- Symlinking: /home/user/ur_ws/install/ur/share/ur/package.dsv
+[0.091s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ament_index/resource_index/packages/ur
+[0.091s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ur/cmake/urConfig.cmake
+[0.091s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+[0.092s] -- Up-to-date symlink: /home/user/ur_ws/install/ur/share/ur/package.xml
+[0.095s] Invoked command in '/home/user/ur_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/universal_robots_ros2_gz_simulation:/opt/ros/humble /usr/bin/cmake --install /home/user/ur_ws/build/ur

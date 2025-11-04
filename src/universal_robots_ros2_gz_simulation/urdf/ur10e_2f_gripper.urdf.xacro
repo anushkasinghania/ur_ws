@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="ur10e_2f_gripper" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- include the base ur10e -->
+  <xacro:include filename="$(find universal_robots_ros2_gz_simulation)/urdf/ur10e.urdf.xacro"/>
+
+  <!-- include the gripper macro -->
+  <xacro:include filename="$(find universal_robots_ros2_gz_simulation)/urdf/robotiq_2f_gripper.urdf.xacro"/>
+
+  <!-- attach gripper to wrist_3_link -->
+  <xacro:property name="parent_link" value="ee_link"/> <!-- or "wrist_3_link" depending on your chain -->
+  <!-- Use the macro defined in robotiq_2f_gripper.urdf.xacro -->
+  <xacro:robotiq_2f_gripper parent="${parent_link}" prefix="gripper_"/>
+
+</robot>
+

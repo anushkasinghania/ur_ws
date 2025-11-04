@@ -1,0 +1,26 @@
+[0.893s] Invoking command in '/home/user/ur_ws/build/universal_robots_ros2_gz_simulation': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_dashboard_msgs PYTHONPATH=/home/user/ur_ws/build/universal_robots_ros2_gz_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ur_ws/install/universal_robots_ros2_gz_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ur_ws/build/universal_robots_ros2_gz_simulation/build --no-deps symlink_data
+[1.156s] running develop
+[1.313s] running egg_info
+[1.313s] creating universal_robots_ros2_gz_simulation.egg-info
+[1.313s] writing universal_robots_ros2_gz_simulation.egg-info/PKG-INFO
+[1.314s] writing dependency_links to universal_robots_ros2_gz_simulation.egg-info/dependency_links.txt
+[1.314s] writing requirements to universal_robots_ros2_gz_simulation.egg-info/requires.txt
+[1.314s] writing top-level names to universal_robots_ros2_gz_simulation.egg-info/top_level.txt
+[1.314s] writing manifest file 'universal_robots_ros2_gz_simulation.egg-info/SOURCES.txt'
+[1.316s] reading manifest file 'universal_robots_ros2_gz_simulation.egg-info/SOURCES.txt'
+[1.317s] writing manifest file 'universal_robots_ros2_gz_simulation.egg-info/SOURCES.txt'
+[1.318s] running build_ext
+[1.318s] Creating /home/user/ur_ws/install/universal_robots_ros2_gz_simulation/lib/python3.10/site-packages/universal-robots-ros2-gz-simulation.egg-link (link to .)
+[1.319s] 
+[1.319s] Installed /home/user/ur_ws/build/universal_robots_ros2_gz_simulation
+[1.319s] running symlink_data
+[1.319s] creating /home/user/ur_ws/install/universal_robots_ros2_gz_simulation/share/ament_index
+[1.320s] creating /home/user/ur_ws/install/universal_robots_ros2_gz_simulation/share/ament_index/resource_index
+[1.320s] creating /home/user/ur_ws/install/universal_robots_ros2_gz_simulation/share/ament_index/resource_index/packages
+[1.320s] symbolically linking /home/user/ur_ws/build/universal_robots_ros2_gz_simulation/resource/universal_robots_ros2_gz_simulation -> /home/user/ur_ws/install/universal_robots_ros2_gz_simulation/share/ament_index/resource_index/packages
+[1.320s] symbolically linking /home/user/ur_ws/build/universal_robots_ros2_gz_simulation/package.xml -> /home/user/ur_ws/install/universal_robots_ros2_gz_simulation/share/universal_robots_ros2_gz_simulation
+[1.320s] creating /home/user/ur_ws/install/universal_robots_ros2_gz_simulation/share/universal_robots_ros2_gz_simulation/launch
+[1.320s] symbolically linking /home/user/ur_ws/build/universal_robots_ros2_gz_simulation/launch/ur10e_gripper_gazebo.launch.py -> /home/user/ur_ws/install/universal_robots_ros2_gz_simulation/share/universal_robots_ros2_gz_simulation/launch
+[1.320s] creating /home/user/ur_ws/install/universal_robots_ros2_gz_simulation/share/universal_robots_ros2_gz_simulation/urdf
+[1.320s] symbolically linking /home/user/ur_ws/build/universal_robots_ros2_gz_simulation/urdf/ur10e_with_dummy_gripper.urdf.xacro -> /home/user/ur_ws/install/universal_robots_ros2_gz_simulation/share/universal_robots_ros2_gz_simulation/urdf
+[1.350s] Invoked command in '/home/user/ur_ws/build/universal_robots_ros2_gz_simulation' returned '0': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_dashboard_msgs PYTHONPATH=/home/user/ur_ws/build/universal_robots_ros2_gz_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ur_ws/install/universal_robots_ros2_gz_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ur_ws/build/universal_robots_ros2_gz_simulation/build --no-deps symlink_data

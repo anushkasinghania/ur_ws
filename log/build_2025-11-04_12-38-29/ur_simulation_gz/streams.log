@@ -1,0 +1,22 @@
+[0.836s] Invoking command in '/home/user/ur_ws/build/ur_simulation_gz': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_dashboard_msgs PYTHONPATH=/home/user/ur_ws/build/ur_simulation_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ur_ws/install/ur_simulation_gz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ur_ws/build/ur_simulation_gz/build --no-deps symlink_data
+[1.168s] running develop
+[1.306s] running egg_info
+[1.306s] creating ur_simulation_gz.egg-info
+[1.306s] writing ur_simulation_gz.egg-info/PKG-INFO
+[1.307s] writing dependency_links to ur_simulation_gz.egg-info/dependency_links.txt
+[1.307s] writing requirements to ur_simulation_gz.egg-info/requires.txt
+[1.307s] writing top-level names to ur_simulation_gz.egg-info/top_level.txt
+[1.307s] writing manifest file 'ur_simulation_gz.egg-info/SOURCES.txt'
+[1.308s] reading manifest file 'ur_simulation_gz.egg-info/SOURCES.txt'
+[1.309s] writing manifest file 'ur_simulation_gz.egg-info/SOURCES.txt'
+[1.310s] running build_ext
+[1.310s] Creating /home/user/ur_ws/install/ur_simulation_gz/lib/python3.10/site-packages/ur-simulation-gz.egg-link (link to .)
+[1.311s] 
+[1.311s] Installed /home/user/ur_ws/build/ur_simulation_gz
+[1.311s] running symlink_data
+[1.311s] creating /home/user/ur_ws/install/ur_simulation_gz/share/ament_index
+[1.311s] creating /home/user/ur_ws/install/ur_simulation_gz/share/ament_index/resource_index
+[1.311s] creating /home/user/ur_ws/install/ur_simulation_gz/share/ament_index/resource_index/packages
+[1.311s] symbolically linking /home/user/ur_ws/build/ur_simulation_gz/resource/ur_simulation_gz -> /home/user/ur_ws/install/ur_simulation_gz/share/ament_index/resource_index/packages
+[1.311s] symbolically linking /home/user/ur_ws/build/ur_simulation_gz/package.xml -> /home/user/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz
+[1.338s] Invoked command in '/home/user/ur_ws/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_dashboard_msgs PYTHONPATH=/home/user/ur_ws/build/ur_simulation_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ur_ws/install/ur_simulation_gz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ur_ws/build/ur_simulation_gz/build --no-deps symlink_data

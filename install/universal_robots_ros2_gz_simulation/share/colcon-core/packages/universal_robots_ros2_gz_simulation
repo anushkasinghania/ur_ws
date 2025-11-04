@@ -1,0 +1,1 @@
+gazebo_ros:launch:launch_ros:moveit_resources_panda_description:moveit_resources_panda_moveit_config:moveit_ros_move_group:moveit_ros_planning_interface:rclpy:robot_state_publisher:ur_description:urdf:urdf_tutorial:xacro

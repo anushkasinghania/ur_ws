@@ -1,0 +1,198 @@
+[0.012s] Invoking command in '/home/user/ur_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/universal_robots_ros2_gz_simulation:/opt/ros/humble LD_LIBRARY_PATH=/home/user/ur_ws/install/ur_dashboard_msgs/lib:/home/user/ur_ws/install/ur_robot_driver/lib:/home/user/ur_ws/install/ur_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/user/ur_ws/src/universal_robots_ros2_driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ur_ws/install/ur_controllers
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.118s] -- The CXX compiler identification is GNU 11.4.0
+[0.124s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.206s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.294s] -- Detecting CXX compile features
+[0.294s] -- Detecting CXX compile features - done
+[0.295s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.429s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.479s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.507s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.508s] -- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.536s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.539s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.547s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.554s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.565s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.693s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.695s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.714s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.720s] -- Looking for pthread.h
+[0.793s] -- Looking for pthread.h - found
+[0.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.868s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.869s] -- Found Threads: TRUE  
+[0.901s] -- Found joint_trajectory_controller: 2.50.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[0.947s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.953s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.959s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.959s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.959s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.995s] -- Found ur_dashboard_msgs: 2.9.0 (/home/user/ur_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[1.004s] -- Found ur_msgs: 2.3.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[1.029s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.030s] -- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.043s] -- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.044s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.048s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.048s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.093s] -- Configuring done
+[1.114s] -- Generating done
+[1.121s] -- Build files have been written to: /home/user/ur_ws/build/ur_controllers
+[1.131s] Invoked command in '/home/user/ur_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/universal_robots_ros2_gz_simulation:/opt/ros/humble LD_LIBRARY_PATH=/home/user/ur_ws/install/ur_dashboard_msgs/lib:/home/user/ur_ws/install/ur_robot_driver/lib:/home/user/ur_ws/install/ur_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/user/ur_ws/src/universal_robots_ros2_driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ur_ws/install/ur_controllers
+[1.133s] Invoking command in '/home/user/ur_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/universal_robots_ros2_gz_simulation:/opt/ros/humble LD_LIBRARY_PATH=/home/user/ur_ws/install/ur_dashboard_msgs/lib:/home/user/ur_ws/install/ur_robot_driver/lib:/home/user/ur_ws/install/ur_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/ur_ws/build/ur_controllers -- -j32 -l32
+[1.181s] [  2%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/user/ur_ws/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp /home/user/ur_ws/src/universal_robots_ros2_driver/ur_controllers/src/tool_contact_controller_parameters.yaml `[0m
+[1.182s] [  5%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/user/ur_ws/build/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp /home/user/ur_ws/src/universal_robots_ros2_driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[1.182s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/user/ur_ws/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp /home/user/ur_ws/src/universal_robots_ros2_driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[1.183s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.183s] [ 14%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/user/ur_ws/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp /home/user/ur_ws/src/universal_robots_ros2_driver/ur_controllers/src/freedrive_mode_controller_parameters.yaml `[0m
+[1.183s] [ 17%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/user/ur_ws/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp /home/user/ur_ws/src/universal_robots_ros2_driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[1.183s] [ 20%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/user/ur_ws/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp /home/user/ur_ws/src/universal_robots_ros2_driver/ur_controllers/src/force_mode_controller_parameters.yaml `[0m
+[1.184s] [ 23%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/user/ur_ws/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp /home/user/ur_ws/src/universal_robots_ros2_driver/ur_controllers/src/passthrough_trajectory_controller_parameters.yaml `[0m
+[1.184s] [ 26%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/user/ur_ws/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp /home/user/ur_ws/src/universal_robots_ros2_driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[1.184s] [ 29%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.185s] [ 32%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.297s] [ 35%] [34m[1mCreating deprecated header file /home/user/ur_ws/build/ur_controllers/include/gpio_controller_parameters.hpp[0m
+[1.297s] [ 38%] [34m[1mCreating deprecated header file /home/user/ur_ws/build/ur_controllers/include/force_mode_controller_parameters.hpp[0m
+[1.298s] [ 41%] [34m[1mCreating deprecated header file /home/user/ur_ws/build/ur_controllers/include/tool_contact_controller_parameters.hpp[0m
+[1.301s] [ 44%] [34m[1mCreating deprecated header file /home/user/ur_ws/build/ur_controllers/include/ur_configuration_controller_parameters.hpp[0m
+[1.302s] [ 47%] [34m[1mCreating deprecated header file /home/user/ur_ws/build/ur_controllers/include/scaled_joint_trajectory_controller_parameters.hpp[0m
+[1.308s] [ 50%] [34m[1mCreating deprecated header file /home/user/ur_ws/build/ur_controllers/include/freedrive_mode_controller_parameters.hpp[0m
+[1.309s] [ 50%] Built target force_mode_controller_parameters
+[1.309s] [ 50%] Built target gpio_controller_parameters
+[1.310s] [ 50%] Built target tool_contact_controller_parameters
+[1.313s] [ 50%] Built target ur_configuration_controller_parameters
+[1.315s] [ 52%] [34m[1mCreating deprecated header file /home/user/ur_ws/build/ur_controllers/include/speed_scaling_state_broadcaster_parameters.hpp[0m
+[1.315s] [ 52%] Built target scaled_joint_trajectory_controller_parameters
+[1.320s] [ 52%] Built target freedrive_mode_controller_parameters
+[1.327s] [ 52%] Built target speed_scaling_state_broadcaster_parameters
+[1.353s] [ 55%] [34m[1mCreating deprecated header file /home/user/ur_ws/build/ur_controllers/include/passthrough_trajectory_controller_parameters.hpp[0m
+[1.368s] [ 55%] Built target passthrough_trajectory_controller_parameters
+[1.390s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/tool_contact_controller.cpp.o[0m
+[1.390s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[1.391s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[1.391s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[1.391s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[1.391s] [ 73%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[1.393s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o[0m
+[1.393s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[1.922s] [ 82%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[1.984s] [ 82%] Built target gmock_main
+[3.207s] [ 85%] [32m[1mLinking CXX static library libgmock.a[0m
+[3.286s] [ 85%] Built target gmock
+[7.642s] [ 88%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[8.630s] [ 88%] Built target ur_controllers
+[8.653s] [ 91%] [32mBuilding CXX object CMakeFiles/test_load_force_mode_controller.dir/test/test_load_force_mode_controller.cpp.o[0m
+[8.657s] [ 94%] [32mBuilding CXX object CMakeFiles/test_load_freedrive_mode_controller.dir/test/test_load_freedrive_mode_controller.cpp.o[0m
+[11.621s] [ 97%] [32m[1mLinking CXX executable test_load_freedrive_mode_controller[0m
+[11.629s] [100%] [32m[1mLinking CXX executable test_load_force_mode_controller[0m
+[11.832s] [100%] Built target test_load_freedrive_mode_controller
+[11.832s] [100%] Built target test_load_force_mode_controller
+[11.845s] Invoked command in '/home/user/ur_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/universal_robots_ros2_gz_simulation:/opt/ros/humble LD_LIBRARY_PATH=/home/user/ur_ws/install/ur_dashboard_msgs/lib:/home/user/ur_ws/install/ur_robot_driver/lib:/home/user/ur_ws/install/ur_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/ur_ws/build/ur_controllers -- -j32 -l32
+[11.847s] Invoking command in '/home/user/ur_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/universal_robots_ros2_gz_simulation:/opt/ros/humble LD_LIBRARY_PATH=/home/user/ur_ws/install/ur_dashboard_msgs/lib:/home/user/ur_ws/install/ur_robot_driver/lib:/home/user/ur_ws/install/ur_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/user/ur_ws/build/ur_controllers
+[11.854s] -- Install configuration: ""
+[11.854s] -- Execute custom install script
+[11.854s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.862s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.871s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.881s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.888s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.895s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.900s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.908s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.913s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.913s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.913s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.913s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.914s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.914s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.914s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.914s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.914s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.914s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.914s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.914s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.915s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[11.916s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[11.917s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[11.917s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[11.917s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[11.917s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[11.917s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[11.917s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[11.917s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers//controller_plugins.xml
+[11.922s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/lib/libur_controllers.so
+[11.932s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[11.939s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[11.948s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[11.954s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[11.962s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[11.968s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[11.977s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller.hpp
+[11.985s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[11.995s] -- Up-to-date symlink: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[11.996s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[12.003s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[12.009s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[12.014s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[12.022s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[12.028s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[12.035s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[12.042s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[12.049s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[12.054s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[12.059s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[12.065s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[12.072s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[12.077s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[12.083s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[12.089s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.099s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.107s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[12.114s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[12.122s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[12.130s] -- Symlinking: /home/user/ur_ws/install/ur_controllers/share/ur_controllers/package.xml
+[12.139s] Invoked command in '/home/user/ur_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/user/ur_ws/install/ur_dashboard_msgs:/home/user/ur_ws/install/ur:/home/user/ur_ws/install/ur_calibration:/home/user/ur_ws/install/ur_robot_driver:/home/user/ur_ws/install/ur_moveit_config:/home/user/ur_ws/install/ur_bringup:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ur_controllers:/home/user/ur_ws/install/ur_simulation_gz:/home/user/ur_ws/install/universal_robots_ros2_gz_simulation:/opt/ros/humble LD_LIBRARY_PATH=/home/user/ur_ws/install/ur_dashboard_msgs/lib:/home/user/ur_ws/install/ur_robot_driver/lib:/home/user/ur_ws/install/ur_controllers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/user/ur_ws/build/ur_controllers

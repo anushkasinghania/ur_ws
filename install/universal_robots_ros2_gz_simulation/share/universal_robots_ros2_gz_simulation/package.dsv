@@ -1,0 +1,9 @@
+source;share/universal_robots_ros2_gz_simulation/hook/pythonpath.ps1
+source;share/universal_robots_ros2_gz_simulation/hook/pythonpath.dsv
+source;share/universal_robots_ros2_gz_simulation/hook/pythonpath.sh
+source;share/universal_robots_ros2_gz_simulation/hook/ament_prefix_path.ps1
+source;share/universal_robots_ros2_gz_simulation/hook/ament_prefix_path.dsv
+source;share/universal_robots_ros2_gz_simulation/hook/ament_prefix_path.sh
+source;../../build/universal_robots_ros2_gz_simulation/share/universal_robots_ros2_gz_simulation/hook/pythonpath_develop.ps1
+source;../../build/universal_robots_ros2_gz_simulation/share/universal_robots_ros2_gz_simulation/hook/pythonpath_develop.dsv
+source;../../build/universal_robots_ros2_gz_simulation/share/universal_robots_ros2_gz_simulation/hook/pythonpath_develop.sh

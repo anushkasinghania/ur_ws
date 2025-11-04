@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>universal_robots_ros2_gz_simulation</name>
+  <version>0.0.1</version>
+  <description>UR10e + Dummy (Robotiq-like) gripper Gazebo simulation package for MoveIt2 and Ignition Gazebo</description>
+
+  <maintainer email="anushkaintern2025@gmail.com">Anushka</maintainer>
+  <license>MIT</license>
+
+  <!-- Core dependencies -->
+  <depend>rclpy</depend>
+  <depend>gazebo_ros</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>xacro</depend>
+  <depend>ur_description</depend>
+  <depend>urdf</depend>
+  <depend>urdf_tutorial</depend>
+
+  <!-- MoveIt and related -->
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>moveit_ros_move_group</depend>
+  <depend>moveit_resources_panda_description</depend>
+  <depend>moveit_resources_panda_moveit_config</depend>
+
+  <!-- Launch dependencies -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+

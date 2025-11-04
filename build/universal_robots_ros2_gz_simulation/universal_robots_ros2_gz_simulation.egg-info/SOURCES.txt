@@ -1,0 +1,12 @@
+package.xml
+setup.py
+launch/ur10e_gripper_gazebo.launch.py
+resource/universal_robots_ros2_gz_simulation
+universal_robots_ros2_gz_simulation/__init__.py
+universal_robots_ros2_gz_simulation.egg-info/PKG-INFO
+universal_robots_ros2_gz_simulation.egg-info/SOURCES.txt
+universal_robots_ros2_gz_simulation.egg-info/dependency_links.txt
+universal_robots_ros2_gz_simulation.egg-info/requires.txt
+universal_robots_ros2_gz_simulation.egg-info/top_level.txt
+universal_robots_ros2_gz_simulation.egg-info/zip-safe
+urdf/ur10e_with_dummy_gripper.urdf.xacro

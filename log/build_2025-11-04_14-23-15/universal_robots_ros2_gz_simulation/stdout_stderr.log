@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing universal_robots_ros2_gz_simulation.egg-info/PKG-INFO
+writing dependency_links to universal_robots_ros2_gz_simulation.egg-info/dependency_links.txt
+writing requirements to universal_robots_ros2_gz_simulation.egg-info/requires.txt
+writing top-level names to universal_robots_ros2_gz_simulation.egg-info/top_level.txt
+reading manifest file 'universal_robots_ros2_gz_simulation.egg-info/SOURCES.txt'
+writing manifest file 'universal_robots_ros2_gz_simulation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/ur_ws/install/universal_robots_ros2_gz_simulation/lib/python3.10/site-packages/universal-robots-ros2-gz-simulation.egg-link (link to .)
+
+Installed /home/user/ur_ws/build/universal_robots_ros2_gz_simulation
+running symlink_data
